@@ -1,6 +1,6 @@
 echo "Delete local install"
 sudo rm -rf /usr/bin/ruby
-echo " Delete rbenv install" 
+echo "Delete rbenv install" 
 sudo rm -rf $HOME/.rbenv /usr/local/rbenv /opt/rbenv /usr/local/opt/rbenv
 echo "Delete rbuild install" 
 brew uninstall --force rbenv ruby-build
