@@ -1,3 +1,4 @@
+sudo rm -rf /usr/bin/ruby 
 sudo rm -rf $HOME/.rbenv /usr/local/rbenv /opt/rbenv /usr/local/opt/rbenv
 brew uninstall --force rbenv ruby-build
 unset RBENV_ROOT && exec zsh
